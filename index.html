@@ -1,21 +1,56 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./CSS/index.css">
+
     <title>Document</title>
 </head>
+
 <body>
     <div class="header">
-        <div class="header_title">
-            ZWQ`s PPORTFOLIO
-        </div>
-        <div class="header_item"></div>
-        <div class="header_item"></div>
-        <div class="header_item"></div>
+ 
+            <div class="header_title">
+                ZWQ`s PPORTFOLIO
+            </div>
+            <ul class="header_tag">
+                <li class="header_item">Work</li>
+                <li class="header_item">Practise</li>
+                <li class="header_item">About</li>
+            </ul>
     </div>
-    <div class="body"></div>
+    <div class="body">
+            <div class="body_introduce">
+                <h1>Working Projects</h1>
+            <p>Common application support platform for Land observation satellites</p>
+            </div>
+            <div class="body_entry">
+                <div class="body_part1">
+                    <h3>Web</h3>
+                    <p>Common application support platform for Land observation satellites</p>
+                    <button class="btn_entry" onclick="myFunction()">more</button>
+                    <script>
+                        function myFunction()
+                        {
+                            window.location.href="part_one.html";
+                        }
+                        </script>
+                </div>
+                <div class="body_part1"> 
+                     <h3>Desktop</h3>
+                    <p>Common application support platform for Land observation satellites</p>
+                    <button class="btn_entry">more</button>
+                </div>
+                <div class="body_part1">
+                    <h3>App</h3>
+                    <p>Common application support platform for Land observation satellites</p>
+                    <button class="btn_entry">more</button>
+                </div>
+            </div>
+    </div>
 </body>
+
 </html>

@@ -1,0 +1,97 @@
+body{
+    background-color: #F9FAFD;
+    margin:0;
+    padding: 0;
+    line-height: 20px;
+}
+ul li{
+    text-decoration: none;
+}
+.header{
+    position: relative;
+    height: 48px;
+    background-color: #fff;
+}
+.header_title{
+    position: absolute;
+    left: 5rem;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 48px;
+}
+.header_title::before{
+    content: "";
+    
+    background-image: url('../Image/icon_z.png');
+}
+.header_tag{
+    position: absolute;
+    right: 5rem;
+}
+.header_item{
+    display: inline-block;
+    height: 32px;
+    border: 1px rgb(100, 100, 100) ;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.body{
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 5rem;
+}
+.body_introduce{
+    margin-left: 4rem;
+}
+.body_entry{
+    display: flex;
+    position: relative;
+    width: 100%;
+    /* background-color: rgb(97, 97, 97); */
+    justify-content: center ;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 4rem;
+}
+.body_part1{
+    width: 26%;
+    height: 320px;
+    background-color: rgb(255, 255, 255);
+    margin-right: 0.5rem;
+    margin-left: 0.5rem;
+    min-width: 240px;
+    text-align: center;
+    padding: 1rem;
+    background: rgba(255,255,255,0.80);
+    box-shadow: 0 0 40px 0 rgba(136,140,146,0.21);
+    border-radius: 16px;
+}
+.body_entry h3{
+    padding-top: 2rem;
+}
+.body_entry p {
+    color: rgba(0,0,0,0.50);
+    line-height: 1.5em;
+}
+.body_entry h3::before{
+    content: "";
+    position: absolute;
+    top: 5rem;
+    height: 8px;
+    width: 2em;
+    background: rgba(241,97,1,0.50);
+}
+.btn_entry{
+    height: 32px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border: none;
+    background-color: #F16101;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1rem;
+    margin-top: 7rem;
+}
