@@ -1,0 +1,26 @@
+h1{
+    color: cornflowerblue;
+}
+h2{
+    color: cornflowerblue;
+    font-size: 18px;
+}
+p{
+    background-color: rgb(224, 214, 214);
+    text-indent: 2em;
+    text-transform: capitalize;
+    text-decoration: underline;
+}
+img{
+    border: 2px solid #f2f2f2;
+}
+.p2{
+    white-space: pre;
+}
+.box2{
+    position: absolute;
+    left: 50%;
+    width: 960px;
+    margin-left: -480px;
+    background-color: #f2f2f2;
+}

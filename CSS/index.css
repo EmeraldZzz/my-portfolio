@@ -4,7 +4,10 @@ body{
     padding: 0;
     line-height: 20px;
 }
-ul li{
+ul li, a{
+    text-decoration: none;
+}
+a:hover{
     text-decoration: none;
 }
 .header{
@@ -12,7 +15,7 @@ ul li{
     height: 48px;
     background-color: #fff;
 }
-.header_title{
+.header_title {
     position: absolute;
     left: 5rem;
     font-size: 16px;
@@ -28,6 +31,12 @@ ul li{
 .header_tag{
     position: absolute;
     right: 5rem;
+}
+.header_tag li a{
+    display: inline-block;
+    line-height: 48px;
+    text-decoration: none;
+    color: black;
 }
 .header_item{
     display: inline-block;

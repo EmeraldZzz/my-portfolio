@@ -3,10 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable=no">
+    <script src="http://cdn.bootcss.com/jquery/2.1.3/jquery.js"></script>
+    <link rel="stylesheet" href="./CSS/web.css">
     <title>Web</title>
 </head>
 <body>
-    jjj
+    <div class="header nav" id="nav" style="height: 48px;"></div>
+
+    <script>
+        $(document).ready(function(){
+            $(".nav a").each(function(){
+                $this = $(this);
+                if($this[0].href==String(window.location)){
+                    $this.addClass("hover");
+                }
+            });
+        });
+    </script>
+    <div class="title_web"></div>
+    <div style="width: 50px;height: 50px;background-color: aqua;">一个恍恍惚惚</div>
+    <div style="width: 50px;height: 50px;padding: 10px;background-color: aqua;">一个恍恍惚惚</div>
 </body>
 </html>
